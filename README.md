@@ -1,8 +1,9 @@
 ## **GOSSIP PROTOCOL - COP5615: Fall 2018**
 
 ## **TEAM MEMBERS**
-Priyam Saikia (UFID 9414 5292)
-Noopur R Kalawatia (UFID 1980 9834)
+Priyam Saikia (UFID **** ****)
+
+Noopur R Kalawatia (UFID **** ****)
 
 ## **PROBLEM**
 Design gossip protocol using genserver to implement gossip algorithm for information propagation
@@ -13,10 +14,13 @@ and push-sum algorithm for sum calculation. Implement the same in various topolo
 Elixir Mix project is required to be installed. 
 Files of importance in the zipped folder (in order of call):
 
-go.exs             -> Commandline entry module
-gossip_protocol.ex -> Main Module
-Client.ex          -> Client Module
-Server.ex          -> Server Module
+*go.exs*             -> Commandline entry module
+
+*gossip_protocol.ex* -> Main Module
+
+*Client.ex*          -> Client Module
+
+*Server.ex*          -> Server Module
 
 To run a test case, do:
 
@@ -33,14 +37,20 @@ Examples:
 
    1)
    C:\Users\PSaikia\Documents\Elixir\kv\gossip_protocol>mix run go.exs 1000 torus gossip
+   
    Running Gossip algorithm
+   
    Implementing torus topology
+   
    Time to Converge: 250 ms
    
    2)
    C:\Users\PSaikia\Documents\Elixir\kv\gossip_protocol>mix run go.exs 100 rand2D push-sum
+   
    Running Push-Sum algorithm
+   
    Implementing random 2D topology
+   
    Time to Converge: 94 ms
 
 ## **WHAT IS WORKING**
@@ -76,5 +86,3 @@ Examples:
    5. Line - 5000
    6. Imperfect Line - 5000
 
-   
-## **--------------------------------------------**--------------------------------------**
