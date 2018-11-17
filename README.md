@@ -30,6 +30,7 @@ To run a test case, do:
 7. Algorithm can be: gossip | push-sum
 
 Examples:
+
    1)
    C:\Users\PSaikia\Documents\Elixir\kv\gossip_protocol>mix run go.exs 1000 torus gossip
    Running Gossip algorithm
