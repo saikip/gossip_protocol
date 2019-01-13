@@ -33,35 +33,45 @@ To run a test case, do:
 
 Examples:
 
-   1)
-   C:\Users\PSaikia\Documents\Elixir\kv\gossip_protocol>mix run go.exs 1000 torus gossip
-   
-   Running Gossip algorithm
-   
-   Implementing torus topology
-   
-   Time to Converge: 250 ms
-   
-   2)
-   C:\Users\PSaikia\Documents\Elixir\kv\gossip_protocol>mix run go.exs 100 rand2D push-sum
-   
-   Running Push-Sum algorithm
-   
-   Implementing random 2D topology
-   
-   Time to Converge: 94 ms
+   1.
+         
+            C:\Users\PSaikia\Documents\Elixir\kv\gossip_protocol>mix run go.exs 1000 torus gossip
+
+            Running Gossip algorithm
+
+            Implementing torus topology
+
+            Time to Converge: 250 ms
+
+   2.
+         
+            C:\Users\PSaikia\Documents\Elixir\kv\gossip_protocol>mix run go.exs 100 rand2D push-sum
+
+            Running Push-Sum algorithm
+
+            Implementing random 2D topology
+
+            Time to Converge: 94 ms
 
 ## **WHAT IS WORKING**
   Convergence of the below two algorithms are working:
+  
     1. Gossip 
+    
     2. Push Sum 
   
   And the algorithms are converging for all the below network topologies:
+  
     1. Full  
+    
     2. 3D Grid 
+    
     3. Random 2D Grid
+    
     4. Torus 
+    
     5. Line 
+    
     6. Imperfect Line 
 
 ## **LARGEST NETWORK**
