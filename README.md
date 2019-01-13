@@ -1,9 +1,7 @@
 ## **GOSSIP PROTOCOL - COP5615: Fall 2018**
 
-## **TEAM MEMBERS**
+## **TEAM INFO**
 Priyam Saikia (UFID **** ****)
-
-Noopur R Kalawatia (UFID **** ****)
 
 ## **PROBLEM**
 Design gossip protocol using genserver to implement gossip algorithm for information propagation
